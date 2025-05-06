@@ -27,7 +27,12 @@ const PALIER_LIST = [
   { name: "Sensei", min: 400000, max: 600000, icon: "🥋" },
   { name: "Maître", min: 600000, max: 800000, icon: "🧙" },
   { name: "Légende", min: 800000, max: 1000000, icon: "🦄" },
-  { name: "Dieu du Trading", min: 1000000, max: Infinity, icon: "👑⚡️" },
+  {
+    name: "Dieu du Trading de fou",
+    min: 1000000,
+    max: Infinity,
+    icon: "👑⚡️",
+  },
 ];
 
 function findPalier(value) {
